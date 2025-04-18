@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario de suscripcion</h1>
+    <form>
+        <div>
+            <label for="name">Nombre: </label>
+            <input type="text" id="name" name="name" />
+        </div>
+        <!--El atributo id se tiene que llamar igual que el for, es por accesibilidad. 
+        Si hago click arriba del label apellido se va a parar el cursor arriba del input.-->
+        <!--El name sirve para que cuando enviemos el formulario. 
+        El formulario va a agarrar el name de cada input y armar la siguiente estructura:
+        Key: value -->
+        <div>
+            <label for="lastname">Apellido: </label> 
+            <input type="text" id="lastname" name="lastname" />
+        </div>
+    
+        <div>
+            <label for="citizenship">Nacionalidad: </label> 
+            <select id="citizenship" name="citizenship">
+                <option value="argentina">Argentina</option>
+                <option value="españa">España</option>
+                <option value="italia">Italia</option>
+                <option value="brasil">Brasil</option>
+                <option value="uruguay">Uruguay</option>
+            </select>
+        </div>
+    
+        <div>
+            <label for="info">Quiero recibir información: </label> 
+            <input type="checkbox" id="info" name="info" />
+        </div>
+    
+        <div>
+            <label for="cv">Adjuntar CV:</label>
+            <input type="file" id="cv" name="cv">
+        </div>
+        <!--Si quisiera que solo permita subir pdf podria usar atributo: accept=".pdf"-->
+    
+        <div>
+            <label>Sexo: </label> <br>
+            <input type="radio" id="femenino" name="gender" value="F">
+            <label for="femenino">F</label><br>
+    
+            <input type="radio" id="masculino" name="gender" value="M">
+            <label for="masculino">M</label><br>
+    
+            <input type="radio" id="indefinido" name="gender" value="ND">
+            <label for="indefinido">ND</label><br>
+        </div>
+    
+        <div>
+            <label for="message">Mensaje: </label>
+            <textarea id="message" name="message" rows="10" cols="30">
+                Escribe un mensaje
+            </textarea>
+        </div>
+        <!--The rows attribute specifies the visible number of lines in a text area.
+        The cols attribute specifies the visible width of a text area.-->
+    
+        <button type="submit"> Enviar </button>
+        <input type="button" name="Enviar">
+        <!--En el button podés meter texto, íconos, HTML. En cambio en input solo texto plano con value
+        El button es mas flexible con css que el input -->
+    </form>
+</body>
+</html>
