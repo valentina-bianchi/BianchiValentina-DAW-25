@@ -1,0 +1,135 @@
+
+body{
+    font-family: "Noto Serif", serif;
+    color: #000A2F;
+    background-color: #fff;
+}
+article{
+    margin: 0 100px 0 100px; /*para que se separe de otros elementos se usa margin. Dejamos espacios a los costadosmedidas: arriba - derecha - abajo - izquiera*/
+}
+header{
+    text-align: center;
+    background-color: #fff;
+}
+/* NAV */
+.nav-capital {
+    background-color: #000d2c;
+}
+.nav-capital ul {
+    list-style: none; /*Quita los puntos (•) de la lista */
+    display: flex; /*Convierte al <ul> en un contenedor flex, lo que permite alinear sus elementos hijos (<li>) en fila o columna de forma flexible.*/
+    justify-content: center; /*funciona porque ul es flex*/
+    margin: 0; /*Elimina el margen exterior por defecto que tienen las listas.*/
+    padding: 0; /*Elimina el espaciado interior por defecto que suelen tener las listas.*/
+    flex-wrap: wrap; /*Permite que los elementos se acomoden en varias líneas si no entran en una sola.*/
+}
+
+.nav-capital li {
+    margin: 0;
+}
+
+.nav-capital a {
+    font-size: 16px; /*tamano de letra*/
+    font-weight: 700; /*negrita*/
+    color: #FFF;
+    text-decoration: none; /*le sacamos el subrayado que tienen las etiquetas a*/
+    padding: 15px 18px; /*Espacio interno: 15px arriba/abajo, 18px izquierda/derecha*/
+    display: block; /* Hace que todo el área del enlace sea clickeable */
+    white-space: nowrap;  /* Impide que el texto se corte en varias líneas */
+}
+
+.nav-capital a:hover {
+    color: #3399ff; /*para cambiar el color cuando pasamos arriba del texto del a */
+}
+
+/* INDICE */
+.breadcrumbs{
+    font-size: 14px;
+    font-family: "Arimo", sans-serif;
+    line-height: 1;
+    margin-top: 10px; /*uso margin para separar de otros elementos*/
+}
+.breadcrumbs a {
+    color: #4C9DFA;
+    text-decoration: none;
+}
+.breadcrumbs span {
+    color: #E8E8E8;
+    padding: 0 16px; /*uso padding porque quiero separar dentro del elemento*/
+}
+/* TITULO */
+
+h1{
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 52px;
+    margin-bottom: 9px;
+}
+/* SUBTITULO */
+h4{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 24px;
+
+}
+.fecha-hora{
+    font-size: 14px;
+    font-family: "Arimo", sans-serif;
+    color: #7A7A7A;
+}
+/* IMAGEN */
+#foto-noticia {
+    width: 100%;
+    height: auto;
+    display: block;
+    text-indent: -999999999999px;
+    border-radius: 4px;
+}
+figcaption{
+    font-family: "Arimo", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 12px 0 26px;
+    color: #292933;
+    border-bottom: 1px solid #E8E8E8; /*linea debajo*/
+}
+/* CUERPO DE LA NOTICIA */
+
+.cuerpo-articulo{
+    padding-bottom: 40px;
+}
+ 
+.cuerpo-articulo p{
+    font-size: 19px;
+    line-height: 30px;
+    color: #292933 ;
+    margin-bottom: 34px;
+}
+
+.cuerpo-articulo > h2 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Arimo", sans-serif;
+    line-height: 1;
+    color: #000A2F;
+    margin-bottom: 20px;
+}
+footer{
+    background-color: #000d2c;
+    color: #fff;
+    font-family: "Arimo", sans-serif;
+    display: flex; /*le pongo flex para luego acomodar los div*/
+}
+footer > div{ /*defino cuando espacio va a usar cada div*/
+    width: 33%;
+    padding: 20px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer ul{
+    list-style: none;
+}
