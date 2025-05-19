@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+  background: #f0f4f8;
+  color: #333;
+  padding: 1rem;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+.contenedor {
+  display: grid;
+  gap: 1rem;
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+/* Unifica visualmente todos los enlaces y sus contenidos */
+a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+/* Asegura que los divs de clase se vean igual sin importar el orden */
+.clase {
+  background: #dbe4f0;
+  padding: 1rem;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+.clase:hover {
+  background: #fddde6;
+}
+
+
+
