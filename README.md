@@ -17,7 +17,7 @@ Cada clase contiene un ejemplo práctico. A continuación, se describen los cont
 **Inicialización del repositorio y primeros archivos**
 
 - Creación del archivo `README.md`.
-- Archivo de prueba: [`prueba.txt`](prueba.txt)
+- Archivo de prueba: [`prueba.txt`](https://valentina-bianchi.github.io/BianchiValentina-DAW-25/prueba.txt)
 
 ---
 
@@ -27,7 +27,7 @@ Cada clase contiene un ejemplo práctico. A continuación, se describen los cont
 - Estructuración semántica de una noticia utilizando HTML puro.
 - Basado en una [noticia real](https://www.lacapital.com.ar/zoom/festival-tini-agotar-tiempo-record-la-primera-fecha-lanzan-una-segunda-n10188777.html).
 
-🔗 [Ver clase](Clase-02/index.html)
+🔗 [Ver clase](https://valentina-bianchi.github.io/BianchiValentina-DAW-25/Clase-02/index.html)
 
 ---
 
@@ -36,7 +36,7 @@ Cada clase contiene un ejemplo práctico. A continuación, se describen los cont
 
 - Creación de un formulario con campos.
 
-🔗 [Ver clase](Clase-03/index.html)
+🔗 [Ver clase](https://valentina-bianchi.github.io/BianchiValentina-DAW-25/Clase-03/index.html)
 
 ---
 
@@ -47,7 +47,7 @@ Cada clase contiene un ejemplo práctico. A continuación, se describen los cont
 - Se mejora la presentación visual con CSS.
 - Inspirado en la misma [noticia original](https://www.lacapital.com.ar/zoom/festival-tini-agotar-tiempo-record-la-primera-fecha-lanzan-una-segunda-n10188777.html).
 
-🔗 [Ver clase](Clase-04/index.html)
+🔗 [Ver clase](https://valentina-bianchi.github.io/BianchiValentina-DAW-25/Clase-04/index.html)
 
 ---
 
@@ -57,7 +57,7 @@ Cada clase contiene un ejemplo práctico. A continuación, se describen los cont
 - Uso de `media queries` para adaptar el sitio a distintos tamaños de pantalla.
 - Optimización visual para celulares, tablets y escritorio.
 
-🔗 [Ver clase](Clase-05/index.html)
+🔗 [Ver clase](https://valentina-bianchi.github.io/BianchiValentina-DAW-25/Clase-05/index.html)
 
 ---
 
@@ -67,10 +67,18 @@ Cada clase contiene un ejemplo práctico. A continuación, se describen los cont
 - Uso de **Flexbox** para mejorar la distribución y el diseño de la noticia.
 - Ejemplo con noticia inventada y diseño flexible.
 
-🔗 [Ver clase](Clase-06/index.html)
+🔗 [Ver clase](https://valentina-bianchi.github.io/BianchiValentina-DAW-25/Clase-06/index.html)
 
 ---
+## 🌐 Sitio web con los resultados
 
+Los resultados prácticos de cada clase están disponibles en línea en el siguiente enlace:
+
+🔗 **[https://valentina-bianchi.github.io/BianchiValentina-DAW-25/](https://valentina-bianchi.github.io/BianchiValentina-DAW-25/)**
+
+Cada clase tiene un enlace correspondiente para acceder directamente a su contenido.
+
+---
 ## Objetivo del proyecto
 
 Este repositorio busca consolidar conocimientos fundamentales del desarrollo web a través de prácticas progresivas.
