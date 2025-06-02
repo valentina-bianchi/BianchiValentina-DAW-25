@@ -70,6 +70,34 @@ Cada clase contiene un ejemplo práctico. A continuación, se describen los cont
 🔗 [Ver clase](https://valentina-bianchi.github.io/BianchiValentina-DAW-25/Clase-06/index.html)
 
 ---
+
+### 📁 Clase 07
+**Parcial**
+
+- Resolución del parcial en clase
+
+---
+
+### 📁 Clase 08
+**Ejercicios JavaScript**
+
+- Uso de **JavaScript** para resolver listado de ejercicios
+- - Link con ejercicios: [Ver archivo en Drive](https://drive.google.com/file/d/1Rt25ifTgvFdfGzEgU7FSo1poEhljSHj9/view?usp=sharing)
+
+🔗 [Ver clase](https://valentina-bianchi.github.io/BianchiValentina-DAW-25/Clase-08/index.html)
+
+---
+
+### 📁 Clase 09
+**JavaScript - DOM**
+
+- Uso de **JavaScript** y el DOM (Document Object Model).
+- Página de suscripción para diario de la clase 6, incorporando un formulario con campos que deben ser validados con JavaScript usando eventos del DOM como blur y focus.
+- Diseño responsive, mostrando los campos en una o dos columnas según el dispositivo.
+
+🔗 [Ver clase](https://valentina-bianchi.github.io/BianchiValentina-DAW-25/Clase-09/index.html)
+
+---
 ## 🌐 Sitio web con los resultados
 
 Los resultados prácticos de cada clase están disponibles en línea en el siguiente enlace:
