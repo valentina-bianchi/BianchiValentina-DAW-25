@@ -98,6 +98,26 @@ Cada clase contiene un ejemplo práctico. A continuación, se describen los cont
 🔗 [Ver clase](https://valentina-bianchi.github.io/BianchiValentina-DAW-25/Clase-09/index.html)
 
 ---
+
+### 📁 Clase 10
+**JavaScript - Async - HTTP y Persistencia de Datos (LocalStorage)**
+
+- Extención de página de suscripción para que luego de llenar campos, tras validarlo, envíe los datos por GET y muestre un modal con la respuesta, guardando los datos en LocalStorage si es exitoso.
+
+🔗 [Ver clase](https://valentina-bianchi.github.io/BianchiValentina-DAW-25/Clase-10/suscripcion.html)
+
+---
+
+### 📁 Clase 11
+**JavaScript - API REST**
+
+- Página web "Rick and Morty" para mostrar y filtrar personajes dinámicamente.
+- Cosumo de API rickandmortyapi.com
+- Interfaz interactiva
+
+🔗 [Ver clase](https://valentina-bianchi.github.io/BianchiValentina-DAW-25/Clase-11/index.html)
+
+---
 ## 🌐 Sitio web con los resultados
 
 Los resultados prácticos de cada clase están disponibles en línea en el siguiente enlace:
