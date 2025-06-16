@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #008001;
+  color: black;
+}
+
+header {
+  background-color: #fffc00;
+  padding: 30px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+h2{
+  margin: 0;
+  font-size: 18px;
+  text-align: left;
+}
+
+button {
+  margin: 10px 0;
+  padding: 10px 15px;
+  background-color: #1aa2b7;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0a6e7e;
+}
+
+.contenido-principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.imagenes img {
+  width: 200px;
+  border-radius: 5px;
+}
+
+.acciones {
+  text-align: center;
+}
+
+.acciones form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.acciones input {
+  margin: 5px 0;
+  padding: 5px;
+  width: 200px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+#personajes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  gap: 10px;
+}
+
+.personaje-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: white;
+  width: 200px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.personaje-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  font-weight: bold;
+}
